@@ -1,0 +1,35 @@
+body{
+    overflow-x: hidden;
+}
+#animate {
+    animation: bgfade 25s infinite; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-color: #000;
+    position: relative;
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+@keyframes bgfade {
+    0% {
+        background-image: url(images/web1.jpg);
+    }
+    25% {
+        background-image: url(images/web2.jpg);
+    }
+    50% {
+        background-image: url(images/web3.jpg);
+    }
+    75% {
+        background-image: url(images/web4.jpg);
+    }
+    100% {
+        background-image: url(images/web5.jpg);
+    }
+
+}
+.backclr {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
